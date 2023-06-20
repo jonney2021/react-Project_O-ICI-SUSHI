@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "../styles/Navbar.module.css";
 import Link from "next/link";
-import { cartContext } from "../pages/cartContext";
+import { cartContext } from "./cartContext";
 import { useRouter } from "next/router";
 import { auth, isAdmin } from "../config/firebase";
 
@@ -55,7 +55,7 @@ const Navbar = () => {
       console.log("Logout error:", error.message);
     }
   };
-  
+
   return (
     <div className={styles.container}>
       <div className={styles.item}>
