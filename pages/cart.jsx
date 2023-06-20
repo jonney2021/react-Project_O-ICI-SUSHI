@@ -10,7 +10,7 @@ import {
 } from "@paypal/react-paypal-js";
 import { auth, firestore, firebase } from "../config/firebase";
 import styles from "../styles/Cart.module.css";
-import { cartContext } from "./cartContext";
+import { cartContext } from "../components/cartContext";
 import { collection, addDoc, setDoc, doc } from "firebase/firestore";
 
 const Cart = () => {
