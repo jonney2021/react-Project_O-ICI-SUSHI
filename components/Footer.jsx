@@ -1,14 +1,17 @@
-import React from 'react'
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
-import styles from '../styles/Footer.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import React from "react";
+import { GoogleMap, LoadScript } from "@react-google-maps/api";
+import styles from "../styles/Footer.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
-
   const mapContainerStyle = {
-    width: '100%',
-    height: '100%',
+    width: "100%",
+    height: "100%",
   };
 
   const center = {
@@ -53,12 +56,15 @@ const Footer = () => {
 
       <div className={styles.item}>
         <LoadScript googleMapsApiKey="AIzaSyA3EUaQYk2Gk2xgp0KayLaL7OEnjafXlz8">
-          <GoogleMap mapContainerStyle={mapContainerStyle} center={center} zoom={10}>
-          </GoogleMap>
+          <GoogleMap
+            mapContainerStyle={mapContainerStyle}
+            center={center}
+            zoom={10}
+          ></GoogleMap>
         </LoadScript>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

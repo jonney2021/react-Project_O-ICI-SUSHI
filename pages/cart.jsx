@@ -1,5 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
-import Image from "next/legacy/image";
+// import Image from "next/legacy/image";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import {

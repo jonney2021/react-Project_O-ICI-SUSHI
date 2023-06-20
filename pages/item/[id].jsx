@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import styles from "../../styles/Item.module.css";
 import Image from "next/image";
-import { cartContext } from "../cartContext";
+import { cartContext } from "../../components/cartContext";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { collection, getDocs } from "firebase/firestore";
