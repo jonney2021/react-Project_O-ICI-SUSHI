@@ -55,7 +55,8 @@ const Footer = () => {
       </div>
 
       <div className={styles.item}>
-        <LoadScript googleMapsApiKey="AIzaSyA3EUaQYk2Gk2xgp0KayLaL7OEnjafXlz8">
+        {/* <LoadScript googleMapsApiKey="AIzaSyA3EUaQYk2Gk2xgp0KayLaL7OEnjafXlz8"> */}
+        <LoadScript googleMapsApiKey="AIzaSyAZ_jWeNjFHklojxME3UVgpA7jbusbVF08">
           <GoogleMap
             mapContainerStyle={mapContainerStyle}
             center={center}
