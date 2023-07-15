@@ -60,7 +60,7 @@ const Navbar = () => {
     <div className={styles.container}>
       <div className={styles.item}>
         <Link href="/">
-          <Image src="/img/logo.png" alt="logo" width={200} height={85} />
+          <Image src="/img/Logo.png" alt="logo" width={200} height={85} />
         </Link>
       </div>
       <div className={styles.item}>
