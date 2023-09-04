@@ -40,4 +40,3 @@ firebase-adminsdk.json
 .pnp.*
 *.pnp.*
 
-config/firebase.js
