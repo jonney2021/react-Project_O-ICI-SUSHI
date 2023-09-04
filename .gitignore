@@ -39,3 +39,5 @@ firebase-adminsdk.json
 .yarn-cache
 .pnp.*
 *.pnp.*
+
+config/firebase.js
