@@ -8,7 +8,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-const googleMapsApiKey = process.env.GOOGLE_MAPS_API_KEY;
+// const googleMapsApiKey = process.env.GOOGLE_MAPS_API_KEY;
 
 const Footer = () => {
   const mapContainerStyle = {
@@ -58,7 +58,7 @@ const Footer = () => {
 
       <div className={styles.item}>
         {/* <LoadScript googleMapsApiKey="AIzaSyA3EUaQYk2Gk2xgp0KayLaL7OEnjafXlz8"> */}
-        <LoadScript googleMapsApiKey={googleMapsApiKey}>
+        <LoadScript googleMapsApiKey="AIzaSyAZ_jWeNjFHklojxME3UVgpA7jbusbVF08">
           <GoogleMap
             mapContainerStyle={mapContainerStyle}
             center={center}
